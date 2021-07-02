@@ -1,7 +1,10 @@
+import { Box } from "@chakra-ui/react";
+import { SideBar } from "../components/SideBar";
+
 export default function Home() {
   return (
-    <div>
-      <h1>teste</h1>
-    </div>
+    <Box w="100vw" h="100vh" bg="blackAlpha.800">
+      <SideBar />
+    </Box>
   );
 }
